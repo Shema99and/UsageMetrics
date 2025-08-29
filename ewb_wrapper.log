@@ -1,0 +1,1095 @@
+2019-10-11 00:06:52.781  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:06:52.792  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:06:52.889  INFO 11460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 00:06:52.890  INFO 11460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 00:06:55.047  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:06:55.067  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:06:55.068  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:06:55.076  INFO 11460 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_121/bin/client;C:/Program Files (x86)/Java/jre1.8.0_121/bin;C:/Program Files (x86)/Java/jre1.8.0_121/lib/i386;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\oracle\product\10.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\sbt\bin;C:\Users\sathiyanarayanan.v\AppData\Roaming\npm;C:\Eclipse\eclipse-jee-oxygen-2-win32\eclipse;;.]
+2019-10-11 00:06:55.241  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:06:55.241  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2351 ms
+2019-10-11 00:06:55.812  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:06:55.850  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:06:56.545  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:06:56.578  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:06:56.592  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:06:56.768  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:06:56.771  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 4.649 seconds (JVM running for 6.812)
+2019-10-11 00:08:22.725  INFO 11460 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 00:08:22.726  INFO 11460 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 00:08:22.733  INFO 11460 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-10-11 00:26:14.661  INFO 11460 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:26:14.939  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:26:14.939  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:26:15.767  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:26:15.768  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:26:15.768  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:26:15.797  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:26:15.797  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 854 ms
+2019-10-11 00:26:16.222  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:26:16.231  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:26:16.322  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:26:16.323  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:26:16.326  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:26:16.359  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:26:16.360  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.533 seconds (JVM running for 1166.358)
+2019-10-11 00:26:16.363  INFO 11460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 00:26:20.244  INFO 11460 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:26:20.486  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:26:20.487  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:26:21.135  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:26:21.136  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:26:21.136  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:26:21.165  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:26:21.165  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 675 ms
+2019-10-11 00:26:21.316  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:26:21.324  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:26:21.395  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:26:21.395  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:26:21.398  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:26:21.443  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:26:21.444  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.997 seconds (JVM running for 1171.441)
+2019-10-11 00:26:21.446  INFO 11460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 00:26:58.670  INFO 11460 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:26:58.840  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:26:58.841  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:26:59.501  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:26:59.502  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:26:59.503  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:26:59.525  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:26:59.525  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 681 ms
+2019-10-11 00:26:59.685  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:26:59.693  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:26:59.780  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:26:59.781  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:26:59.784  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:26:59.813  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:26:59.814  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.014 seconds (JVM running for 1209.804)
+2019-10-11 00:26:59.816  INFO 11460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 00:27:07.577  INFO 11460 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:27:07.747  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:27:07.747  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:27:08.341  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:27:08.343  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:27:08.343  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:27:08.370  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:27:08.370  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 620 ms
+2019-10-11 00:27:08.514  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:27:08.522  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:27:08.586  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:27:08.587  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:27:08.590  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:27:08.617  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:27:08.624  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.913 seconds (JVM running for 1218.617)
+2019-10-11 00:27:08.626  INFO 11460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 00:27:25.844  INFO 11460 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:27:26.066  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:27:26.066  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:27:26.634  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:27:26.635  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:27:26.635  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:27:26.664  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:27:26.664  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 595 ms
+2019-10-11 00:27:26.808  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:27:26.814  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:27:26.876  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:27:26.877  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:27:26.880  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:27:26.916  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:27:26.917  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.886 seconds (JVM running for 1236.908)
+2019-10-11 00:27:26.922  INFO 11460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 00:27:33.573  INFO 11460 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:27:33.745  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:27:33.746  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:27:34.403  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:27:34.404  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:27:34.404  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:27:34.437  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:27:34.438  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 689 ms
+2019-10-11 00:27:34.611  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:27:34.619  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:27:34.690  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:27:34.691  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:27:34.694  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:27:34.723  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:27:34.724  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.016 seconds (JVM running for 1244.713)
+2019-10-11 00:27:34.726  INFO 11460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 00:30:06.166  INFO 11460 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:30:06.329  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:30:06.329  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:30:07.117  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:30:07.118  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:30:07.118  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:30:07.151  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:30:07.151  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 818 ms
+2019-10-11 00:30:07.322  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:30:07.333  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:30:07.428  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:30:07.429  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:30:07.432  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:30:07.462  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:30:07.463  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.176 seconds (JVM running for 1397.44)
+2019-10-11 00:30:07.465  INFO 11460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 00:37:21.390  INFO 11460 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:37:21.583  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11460 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:37:21.584  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:37:22.236  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:37:22.237  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:37:22.237  INFO 11460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:37:22.279  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:37:22.279  INFO 11460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 692 ms
+2019-10-11 00:37:23.409  INFO 11460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:37:23.418  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:37:23.497  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:37:23.506  INFO 11460 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:37:23.510  INFO 11460 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:37:23.538  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:37:23.538  INFO 11460 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 2.014 seconds (JVM running for 1833.471)
+2019-10-11 00:37:23.540  INFO 11460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 00:51:06.624  INFO 12216 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12216 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 00:51:06.631  INFO 12216 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 00:51:06.689  INFO 12216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 00:51:06.690  INFO 12216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 00:51:08.186  INFO 12216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 00:51:08.206  INFO 12216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 00:51:08.206  INFO 12216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 00:51:08.222  INFO 12216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_121/bin/client;C:/Program Files (x86)/Java/jre1.8.0_121/bin;C:/Program Files (x86)/Java/jre1.8.0_121/lib/i386;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\oracle\product\10.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\sbt\bin;C:\Users\sathiyanarayanan.v\AppData\Roaming\npm;C:\Eclipse\eclipse-jee-oxygen-2-win32\eclipse;;.]
+2019-10-11 00:51:08.443  INFO 12216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 00:51:08.443  INFO 12216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1753 ms
+2019-10-11 00:51:08.939  INFO 12216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 00:51:08.989  INFO 12216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 00:51:09.310  INFO 12216 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 00:51:09.326  INFO 12216 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 00:51:09.340  INFO 12216 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 00:51:09.513  INFO 12216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 00:51:09.517  INFO 12216 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 3.336 seconds (JVM running for 4.187)
+2019-10-11 01:03:56.061  INFO 12216 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 01:03:56.061  INFO 12216 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 01:03:56.070  INFO 12216 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-10-11 01:04:27.156  INFO 12216 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:04:27.330  INFO 12216 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12216 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:04:27.331  INFO 12216 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:04:28.037  INFO 12216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:04:28.038  INFO 12216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:04:28.039  INFO 12216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:04:28.059  INFO 12216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:04:28.059  INFO 12216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 724 ms
+2019-10-11 01:04:28.251  INFO 12216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:04:28.261  INFO 12216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:04:28.338  INFO 12216 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:04:28.338  INFO 12216 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:04:28.342  INFO 12216 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:04:28.375  INFO 12216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:04:28.376  INFO 12216 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.09 seconds (JVM running for 803.035)
+2019-10-11 01:04:28.379  INFO 12216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:04:49.578  INFO 12216 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 01:04:49.580  INFO 12216 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 01:04:49.603  INFO 12216 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2019-10-11 01:06:57.024  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:06:57.028  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:06:57.084  INFO 11032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 01:06:57.084  INFO 11032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 01:06:58.701  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:06:58.759  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:06:58.759  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:06:58.766  INFO 11032 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_121/bin/client;C:/Program Files (x86)/Java/jre1.8.0_121/bin;C:/Program Files (x86)/Java/jre1.8.0_121/lib/i386;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\oracle\product\10.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\sbt\bin;C:\Users\sathiyanarayanan.v\AppData\Roaming\npm;C:\Eclipse\eclipse-jee-oxygen-2-win32\eclipse;;.]
+2019-10-11 01:06:58.943  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:06:58.943  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1859 ms
+2019-10-11 01:06:59.446  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:06:59.483  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:06:59.811  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:06:59.839  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:06:59.852  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:07:00.039  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:07:00.046  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 3.448 seconds (JVM running for 4.198)
+2019-10-11 01:07:24.771  INFO 11032 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 01:07:24.772  INFO 11032 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 01:07:24.777  INFO 11032 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-10-11 01:49:23.555  INFO 11032 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:49:23.755  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:49:23.756  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:49:24.477  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:49:24.478  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:49:24.478  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:49:24.507  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:49:24.507  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 747 ms
+2019-10-11 01:49:24.688  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:49:24.698  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:49:24.789  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:49:24.790  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:49:24.793  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:49:24.823  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:49:24.823  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.115 seconds (JVM running for 2548.878)
+2019-10-11 01:49:24.826  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:49:42.787  INFO 11032 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 01:49:42.789  INFO 11032 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 01:49:42.816  INFO 11032 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2019-10-11 01:50:28.368  INFO 11032 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:50:28.541  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:50:28.542  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:50:29.256  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:50:29.257  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:50:29.257  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:50:29.297  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:50:29.298  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 752 ms
+2019-10-11 01:50:29.481  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:50:29.501  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:50:29.590  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:50:29.591  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:50:29.595  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:50:29.627  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:50:29.628  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.133 seconds (JVM running for 2613.723)
+2019-10-11 01:50:29.631  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:50:48.966  INFO 11032 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 01:50:48.969  INFO 11032 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 01:50:48.998  INFO 11032 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2019-10-11 01:52:33.998  INFO 11032 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:52:34.197  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:52:34.197  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:52:34.862  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:52:34.863  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:52:34.863  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:52:34.898  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:52:34.898  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 697 ms
+2019-10-11 01:52:35.087  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:52:35.104  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:52:35.190  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:52:35.191  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:52:35.194  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:52:35.226  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:52:35.227  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.082 seconds (JVM running for 2739.388)
+2019-10-11 01:52:35.230  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:52:41.933  INFO 11032 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:52:42.110  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:52:42.111  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:52:42.704  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:52:42.705  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:52:42.705  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:52:42.739  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:52:42.739  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 623 ms
+2019-10-11 01:52:42.874  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:52:42.894  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:52:42.961  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:52:42.962  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:52:42.965  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:52:42.994  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:52:42.994  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.925 seconds (JVM running for 2747.16)
+2019-10-11 01:52:42.996  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:53:48.892  INFO 11032 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:53:49.073  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:53:49.073  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:53:49.711  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:53:49.711  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:53:49.712  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:53:49.749  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:53:49.750  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 674 ms
+2019-10-11 01:53:49.937  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:53:49.948  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:53:50.020  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:53:50.021  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:53:50.025  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:53:50.056  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:53:50.057  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.026 seconds (JVM running for 2814.231)
+2019-10-11 01:53:50.059  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:54:14.545  INFO 11032 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:54:14.711  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:54:14.711  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:54:15.323  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:54:15.324  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:54:15.324  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:54:15.354  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:54:15.354  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 639 ms
+2019-10-11 01:54:15.510  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:54:15.519  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:54:15.603  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:54:15.604  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:54:15.608  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:54:15.638  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:54:15.639  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.971 seconds (JVM running for 2839.822)
+2019-10-11 01:54:15.642  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:55:26.383  INFO 11032 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:26.561  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:55:26.561  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:55:27.273  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:55:27.274  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:55:27.274  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:55:27.302  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:55:27.302  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 737 ms
+2019-10-11 01:55:27.471  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:27.481  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:55:27.579  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:55:27.580  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:55:27.583  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:55:27.613  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:55:27.614  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.108 seconds (JVM running for 2911.809)
+2019-10-11 01:55:27.616  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:55:31.144  INFO 11032 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:31.350  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:55:31.350  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:55:31.943  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:55:31.944  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:55:31.944  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:55:32.021  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:55:32.022  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 669 ms
+2019-10-11 01:55:32.200  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:32.208  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:55:32.299  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:55:32.300  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:55:32.304  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:55:32.333  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:55:32.334  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.026 seconds (JVM running for 2916.529)
+2019-10-11 01:55:32.335  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:55:44.284  INFO 11032 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:44.487  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:55:44.487  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:55:45.099  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:55:45.100  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:55:45.100  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:55:45.119  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:55:45.119  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 628 ms
+2019-10-11 01:55:45.264  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:45.272  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:55:45.349  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:55:45.350  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:55:45.353  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:55:45.377  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:55:45.378  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.953 seconds (JVM running for 2929.573)
+2019-10-11 01:55:45.380  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:55:50.415  INFO 11032 --- [Thread-58] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:50.575  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:55:50.576  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:55:51.270  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:55:51.273  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:55:51.273  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:55:51.297  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:55:51.297  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 718 ms
+2019-10-11 01:55:51.470  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:51.478  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:55:51.591  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:55:51.592  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:55:51.596  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:55:51.626  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:55:51.627  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.093 seconds (JVM running for 2935.828)
+2019-10-11 01:55:51.629  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:55:54.571  INFO 11032 --- [Thread-64] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:54.746  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:55:54.747  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:55:55.401  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:55:55.402  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:55:55.402  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:55:55.423  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:55:55.423  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 649 ms
+2019-10-11 01:55:55.578  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:55:55.586  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:55:55.661  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:55:55.662  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:55:55.666  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:55:55.693  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:55:55.693  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.992 seconds (JVM running for 2939.894)
+2019-10-11 01:55:55.695  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:56:12.856  INFO 11032 --- [Thread-70] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:13.049  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:56:13.049  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:56:13.619  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:56:13.620  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:56:13.620  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:56:13.639  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:56:13.639  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 585 ms
+2019-10-11 01:56:13.777  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:13.783  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:56:13.865  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:56:13.866  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:56:13.869  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:56:13.893  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:56:13.893  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.882 seconds (JVM running for 2958.098)
+2019-10-11 01:56:13.895  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:56:18.439  INFO 11032 --- [Thread-76] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:18.736  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:56:18.737  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:56:19.521  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:56:19.522  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:56:19.522  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:56:19.566  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:56:19.567  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 826 ms
+2019-10-11 01:56:19.741  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:19.749  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:56:19.835  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:56:19.836  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:56:19.845  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:56:19.881  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:56:19.882  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.192 seconds (JVM running for 2964.087)
+2019-10-11 01:56:19.884  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:56:23.315  INFO 11032 --- [Thread-82] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:23.497  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:56:23.498  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:56:24.124  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:56:24.125  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:56:24.125  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:56:24.144  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:56:24.144  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 642 ms
+2019-10-11 01:56:24.305  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:24.313  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:56:24.400  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:56:24.401  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:56:24.405  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:56:24.431  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:56:24.432  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.976 seconds (JVM running for 2968.636)
+2019-10-11 01:56:24.433  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:56:33.588  INFO 11032 --- [Thread-88] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:33.763  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:56:33.763  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:56:34.463  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:56:34.464  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:56:34.465  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:56:34.521  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:56:34.522  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 755 ms
+2019-10-11 01:56:35.270  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:35.281  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:56:35.372  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:56:35.373  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:56:35.377  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:56:35.404  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:56:35.405  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.679 seconds (JVM running for 2979.614)
+2019-10-11 01:56:35.409  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:56:40.362  INFO 11032 --- [Thread-94] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:40.539  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:56:40.539  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:56:41.207  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:56:41.208  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:56:41.208  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:56:41.248  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:56:41.249  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 705 ms
+2019-10-11 01:56:41.446  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:56:41.456  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:56:41.556  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:56:41.557  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:56:41.561  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:56:41.588  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:56:41.589  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.092 seconds (JVM running for 2985.798)
+2019-10-11 01:56:41.590  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:57:52.901  INFO 11032 --- [Thread-100] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:57:53.097  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:57:53.097  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:57:53.833  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:57:53.834  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:57:53.835  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:57:53.878  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:57:53.878  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 776 ms
+2019-10-11 01:57:54.392  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:57:54.402  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:57:54.481  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:57:54.482  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:57:54.485  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:57:54.512  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:57:54.512  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.475 seconds (JVM running for 3058.727)
+2019-10-11 01:57:54.514  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:58:00.092  INFO 11032 --- [Thread-106] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:58:00.276  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:58:00.276  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:58:00.887  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:58:00.888  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:58:00.888  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:58:00.912  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:58:00.912  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 632 ms
+2019-10-11 01:58:01.065  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:58:01.072  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:58:01.150  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:58:01.151  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:58:01.155  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:58:01.181  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:58:01.181  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.943 seconds (JVM running for 3065.395)
+2019-10-11 01:58:01.183  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:58:24.731  INFO 11032 --- [Thread-112] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:58:24.913  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:58:24.913  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:58:25.472  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:58:25.473  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:58:25.473  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:58:25.492  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:58:25.492  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 575 ms
+2019-10-11 01:58:25.634  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:58:25.641  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:58:25.718  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:58:25.719  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:58:25.723  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:58:25.749  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:58:25.749  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.876 seconds (JVM running for 3089.964)
+2019-10-11 01:58:25.752  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:58:57.695  INFO 11032 --- [Thread-118] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:58:57.863  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:58:57.864  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 01:58:58.509  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 01:58:58.510  INFO 11032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 01:58:58.510  INFO 11032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 01:58:58.543  INFO 11032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 01:58:58.543  INFO 11032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 675 ms
+2019-10-11 01:58:58.710  INFO 11032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:58:58.720  INFO 11032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 01:58:58.792  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 01:58:58.792  INFO 11032 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 01:58:58.796  INFO 11032 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 01:58:58.822  INFO 11032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 01:58:58.823  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.0 seconds (JVM running for 3123.042)
+2019-10-11 01:58:58.825  INFO 11032 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 01:59:31.834  INFO 11032 --- [Thread-124] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 01:59:32.010  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 11032 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 01:59:32.011  INFO 11032 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:02:57.202  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:02:57.209  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:02:57.256  INFO 12296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 02:02:57.257  INFO 12296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 02:02:59.050  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:02:59.125  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:02:59.125  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:02:59.134  INFO 12296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_121/bin/client;C:/Program Files (x86)/Java/jre1.8.0_121/bin;C:/Program Files (x86)/Java/jre1.8.0_121/lib/i386;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\oracle\product\10.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\sbt\bin;C:\Users\sathiyanarayanan.v\AppData\Roaming\npm;C:\Eclipse\eclipse-jee-oxygen-2-win32\eclipse;;.]
+2019-10-11 02:02:59.356  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:02:59.356  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2099 ms
+2019-10-11 02:02:59.879  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:02:59.921  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:03:00.243  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:03:00.259  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:03:00.284  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:03:00.461  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:03:00.465  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 3.734 seconds (JVM running for 4.532)
+2019-10-11 02:04:01.335  INFO 12296 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 02:04:01.336  INFO 12296 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 02:04:01.342  INFO 12296 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-10-11 02:04:58.459  INFO 12296 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:04:58.632  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:04:58.632  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:04:59.339  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:04:59.340  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:04:59.340  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:04:59.363  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:04:59.363  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 727 ms
+2019-10-11 02:04:59.573  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:04:59.588  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:04:59.690  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:04:59.690  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:04:59.694  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:04:59.731  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:04:59.732  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.146 seconds (JVM running for 123.799)
+2019-10-11 02:04:59.735  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:05:01.167  INFO 12296 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:05:01.315  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:05:01.316  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:05:01.950  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:05:01.951  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:05:01.951  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:05:01.981  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:05:01.981  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 662 ms
+2019-10-11 02:05:02.147  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:05:02.155  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:05:02.224  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:05:02.225  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:05:02.229  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:05:02.281  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:05:02.282  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.009 seconds (JVM running for 126.356)
+2019-10-11 02:05:02.284  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:05:12.085  INFO 12296 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 02:05:12.088  INFO 12296 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 02:05:12.101  INFO 12296 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-10-11 02:06:26.046  INFO 12296 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:06:26.273  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:06:26.274  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:06:27.001  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:06:27.002  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:06:27.003  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:06:27.026  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:06:27.027  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 747 ms
+2019-10-11 02:06:27.213  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:06:27.222  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:06:27.312  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:06:27.312  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:06:27.316  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:06:27.345  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:06:27.346  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.119 seconds (JVM running for 211.417)
+2019-10-11 02:06:27.348  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:07:08.744  INFO 12296 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 02:07:08.748  INFO 12296 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 02:07:08.775  INFO 12296 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2019-10-11 02:07:59.925  INFO 12296 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:08:00.112  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:08:00.112  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:08:00.888  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:08:00.889  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:08:00.890  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:08:00.914  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:08:00.914  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 798 ms
+2019-10-11 02:08:01.099  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:08:01.109  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:08:01.242  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:08:01.242  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:08:01.246  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:08:01.279  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:08:01.280  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.215 seconds (JVM running for 305.351)
+2019-10-11 02:08:01.282  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:08:17.461  INFO 12296 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:08:17.656  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:08:17.657  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:08:18.271  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:08:18.272  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:08:18.272  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:08:18.302  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:08:18.302  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 641 ms
+2019-10-11 02:08:18.464  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:08:18.473  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:08:18.542  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:08:18.543  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:08:18.546  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:08:18.589  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:08:18.589  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.974 seconds (JVM running for 322.662)
+2019-10-11 02:08:18.591  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:09:37.075  INFO 12296 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:09:37.241  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:09:37.241  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:09:37.946  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:09:37.946  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:09:37.947  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:09:37.971  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:09:37.971  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 726 ms
+2019-10-11 02:09:38.196  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:09:38.205  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:09:38.300  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:09:38.301  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:09:38.304  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:09:38.333  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:09:38.334  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 1.14 seconds (JVM running for 402.409)
+2019-10-11 02:09:38.336  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:09:42.976  INFO 12296 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:09:43.170  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:09:43.170  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:09:43.799  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:09:43.800  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:09:43.800  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:09:43.837  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:09:43.837  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 663 ms
+2019-10-11 02:09:44.004  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:09:44.013  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:09:44.082  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:09:44.083  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:09:44.086  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:09:44.117  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:09:44.117  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.992 seconds (JVM running for 408.19)
+2019-10-11 02:09:44.119  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:12:18.286  INFO 12296 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:12:18.462  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:12:18.463  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:12:19.097  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:12:19.098  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:12:19.098  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:12:19.126  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:12:19.126  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 660 ms
+2019-10-11 02:12:19.295  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:12:19.304  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:12:19.384  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:12:19.385  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:12:19.388  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:12:19.415  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:12:19.416  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.992 seconds (JVM running for 563.477)
+2019-10-11 02:12:19.419  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:13:07.137  INFO 12296 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:13:07.302  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:13:07.302  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:13:07.914  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:13:07.915  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:13:07.916  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:13:07.945  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:13:07.945  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 638 ms
+2019-10-11 02:13:08.124  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:13:08.133  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:13:08.205  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:13:08.206  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:13:08.209  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:13:08.237  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:13:08.246  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.989 seconds (JVM running for 612.303)
+2019-10-11 02:13:08.249  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:13:19.123  INFO 12296 --- [Thread-58] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:13:19.278  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:13:19.279  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:13:19.920  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:13:19.921  INFO 12296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:13:19.921  INFO 12296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:13:19.950  INFO 12296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:13:19.951  INFO 12296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 667 ms
+2019-10-11 02:13:20.118  INFO 12296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:13:20.125  INFO 12296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:13:20.190  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:13:20.191  INFO 12296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:13:20.194  INFO 12296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:13:20.223  INFO 12296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:13:20.224  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.987 seconds (JVM running for 624.276)
+2019-10-11 02:13:20.226  INFO 12296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-11 02:13:35.420  INFO 12296 --- [Thread-64] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:13:35.570  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 12296 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:13:35.571  INFO 12296 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:14:55.686  INFO 14652 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC366 with PID 14652 (C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper\target\classes started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\New\EWB_Wrapper)
+2019-10-11 02:14:55.690  INFO 14652 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-11 02:14:55.750  INFO 14652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 02:14:55.750  INFO 14652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 02:14:57.298  INFO 14652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-11 02:14:57.318  INFO 14652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-11 02:14:57.318  INFO 14652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-11 02:14:57.325  INFO 14652 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_121/bin/client;C:/Program Files (x86)/Java/jre1.8.0_121/bin;C:/Program Files (x86)/Java/jre1.8.0_121/lib/i386;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\oracle\product\10.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\sbt\bin;C:\Users\sathiyanarayanan.v\AppData\Roaming\npm;C:\Eclipse\eclipse-jee-oxygen-2-win32\eclipse;;.]
+2019-10-11 02:14:57.522  INFO 14652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-11 02:14:57.522  INFO 14652 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1772 ms
+2019-10-11 02:14:58.054  INFO 14652 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 02:14:58.094  INFO 14652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-11 02:14:58.428  INFO 14652 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-11 02:14:58.443  INFO 14652 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-11 02:14:58.456  INFO 14652 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-11 02:14:58.632  INFO 14652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-11 02:14:58.637  INFO 14652 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 3.401 seconds (JVM running for 4.139)
+2019-10-11 02:15:47.229  INFO 14652 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 02:15:47.229  INFO 14652 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-11 02:15:47.241  INFO 14652 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-10-15 11:04:01.511  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:04:01.514  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:04:01.614  INFO 9364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-15 11:04:01.615  INFO 9364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-15 11:04:03.659  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:04:03.683  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:04:03.684  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:04:03.695  INFO 9364 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\oracle\product\10.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Java\jdk8u202-b08\bin;C:\Program Files\nodejs\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\PuTTY\;C:\Users\vishnu.c\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vishnu.c\AppData\Roaming\npm;C:\Users\vishnu.c\AppData\Local\Programs\Git\cmd;C:\Softwares\eclipse-jee-mars-M1-win32-x86_64\eclipse;;.]
+2019-10-15 11:04:03.840  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:04:03.840  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2225 ms
+2019-10-15 11:04:04.669  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:04:04.713  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:04:05.263  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:04:05.292  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:04:05.303  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:04:05.460  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:04:05.463  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 4.477 seconds (JVM running for 5.072)
+2019-10-15 11:04:24.160  INFO 9364 --- [http-nio-8002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-15 11:04:24.160  INFO 9364 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-15 11:04:24.170  INFO 9364 --- [http-nio-8002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-10-15 11:30:58.387  INFO 9364 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:30:58.580  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:30:58.580  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:30:58.873  WARN 9364 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'ConfigResources' may not be final. Remove the final modifier to continue.
+Offending resource: class path resource [com/zifo/ewb/wrapper/utils/ConfigResources.class]
+2019-10-15 11:30:58.887  INFO 9364 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-15 11:30:58.896 ERROR 9364 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'ConfigResources' may not be final. Remove the final modifier to continue.
+Offending resource: class path resource [com/zifo/ewb/wrapper/utils/ConfigResources.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:217) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:208) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.zifo.ewb.wrapper.IntegrationServiceApplication.main(IntegrationServiceApplication.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+
+2019-10-15 11:31:39.319  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:31:39.320  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:31:39.635  WARN 9364 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'ConfigResources' may not be final. Remove the final modifier to continue.
+Offending resource: class path resource [com/zifo/ewb/wrapper/utils/ConfigResources.class]
+2019-10-15 11:31:39.638  INFO 9364 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-15 11:31:39.639 ERROR 9364 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'ConfigResources' may not be final. Remove the final modifier to continue.
+Offending resource: class path resource [com/zifo/ewb/wrapper/utils/ConfigResources.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:217) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:208) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.zifo.ewb.wrapper.IntegrationServiceApplication.main(IntegrationServiceApplication.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+
+2019-10-15 11:31:53.774  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:31:53.775  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:31:54.160  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:31:54.161  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:31:54.161  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:31:54.174  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:31:54.174  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 398 ms
+2019-10-15 11:31:54.194  WARN 9364 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configResources': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'acceptXML' in value "${acceptXML}"
+2019-10-15 11:31:54.194  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-10-15 11:31:54.198  INFO 9364 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-15 11:31:54.199 ERROR 9364 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configResources': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'acceptXML' in value "${acceptXML}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.zifo.ewb.wrapper.IntegrationServiceApplication.main(IntegrationServiceApplication.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'acceptXML' in value "${acceptXML}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 22 common frames omitted
+
+2019-10-15 11:32:16.666  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:32:16.667  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:32:17.046  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:32:17.047  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:32:17.047  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:32:17.060  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:32:17.060  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 391 ms
+2019-10-15 11:32:17.076  WARN 9364 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configResources': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'acceptJSON' in value "${acceptJSON}"
+2019-10-15 11:32:17.076  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-10-15 11:32:17.080  INFO 9364 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-15 11:32:17.080 ERROR 9364 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configResources': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'acceptJSON' in value "${acceptJSON}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.zifo.ewb.wrapper.IntegrationServiceApplication.main(IntegrationServiceApplication.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'acceptJSON' in value "${acceptJSON}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 22 common frames omitted
+
+2019-10-15 11:36:41.416  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:36:41.417  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:36:41.799  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:36:41.800  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:36:41.801  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:36:41.820  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:36:41.820  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 401 ms
+2019-10-15 11:36:41.937  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:36:41.939  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:36:42.033  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:36:42.034  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:36:42.036  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:36:42.069  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:36:42.069  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.706 seconds (JVM running for 1961.566)
+2019-10-15 11:36:42.071  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:37:50.613  INFO 9364 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:37:50.857  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:37:50.857  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:37:51.221  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:37:51.222  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:37:51.222  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:37:51.235  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:37:51.235  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 376 ms
+2019-10-15 11:37:51.351  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:37:51.354  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:37:51.403  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:37:51.403  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:37:51.406  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:37:51.435  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:37:51.436  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.612 seconds (JVM running for 2030.929)
+2019-10-15 11:37:51.437  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:38:33.727  INFO 9364 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:38:33.934  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:38:33.935  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:38:34.285  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:38:34.287  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:38:34.287  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:38:34.300  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:38:34.300  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 364 ms
+2019-10-15 11:38:34.410  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:38:34.414  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:38:34.466  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:38:34.466  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:38:34.469  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:38:34.496  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:38:34.496  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.592 seconds (JVM running for 2073.988)
+2019-10-15 11:38:34.497  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:40:03.371  INFO 9364 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:40:03.552  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:40:03.552  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:40:03.891  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:40:03.892  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:40:03.892  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:40:03.905  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:40:03.905  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 352 ms
+2019-10-15 11:40:04.009  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:40:04.013  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:40:04.061  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:40:04.062  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:40:04.063  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:40:04.088  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:40:04.088  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.563 seconds (JVM running for 2163.575)
+2019-10-15 11:40:04.090  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:40:07.575  INFO 9364 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:40:07.741  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:40:07.741  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:40:08.068  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:40:08.068  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:40:08.069  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:40:08.081  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:40:08.081  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 338 ms
+2019-10-15 11:40:08.192  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:40:08.194  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:40:08.245  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:40:08.246  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:40:08.249  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:40:08.281  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:40:08.281  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.57 seconds (JVM running for 2167.768)
+2019-10-15 11:40:08.282  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:40:44.451  INFO 9364 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:40:44.625  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:40:44.625  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:40:44.952  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:40:44.953  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:40:44.953  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:40:44.965  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:40:44.965  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 338 ms
+2019-10-15 11:40:45.052  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:40:45.054  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:40:45.101  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:40:45.102  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:40:45.104  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:40:45.129  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:40:45.130  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.531 seconds (JVM running for 2204.615)
+2019-10-15 11:40:45.131  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:40:50.793  INFO 9364 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:40:50.962  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:40:50.963  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:40:51.271  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:40:51.271  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:40:51.271  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:40:51.290  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:40:51.290  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 326 ms
+2019-10-15 11:40:51.394  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:40:51.397  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:40:51.449  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:40:51.450  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:40:51.452  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:40:51.480  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:40:51.481  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.542 seconds (JVM running for 2210.966)
+2019-10-15 11:40:51.482  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:41:09.686  INFO 9364 --- [Thread-58] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:41:09.834  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:41:09.834  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:41:10.138  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:41:10.139  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:41:10.139  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:41:10.151  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:41:10.151  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 315 ms
+2019-10-15 11:41:10.242  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:41:10.244  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:41:10.290  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:41:10.291  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:41:10.293  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:41:10.318  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:41:10.318  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.509 seconds (JVM running for 2229.802)
+2019-10-15 11:41:10.319  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:41:27.526  INFO 9364 --- [Thread-64] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:41:27.675  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Starting IntegrationServiceApplication on ZDTC325 with PID 9364 (started by vishnu.c in C:\Users\vishnu.c\Desktop\Projects, jars & .java\E-Workbook_Wrapper)
+2019-10-15 11:41:27.675  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : No active profile set, falling back to default profiles: default
+2019-10-15 11:41:27.973  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2019-10-15 11:41:27.974  INFO 9364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:41:27.974  INFO 9364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-15 11:41:27.985  INFO 9364 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:41:27.985  INFO 9364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 309 ms
+2019-10-15 11:41:28.062  INFO 9364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:41:28.065  INFO 9364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-15 11:41:28.110  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-15 11:41:28.111  INFO 9364 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-15 11:41:28.113  INFO 9364 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-15 11:41:28.156  INFO 9364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2019-10-15 11:41:28.157  INFO 9364 --- [restartedMain] c.z.e.w.IntegrationServiceApplication    : Started IntegrationServiceApplication in 0.506 seconds (JVM running for 2247.64)
+2019-10-15 11:41:28.158  INFO 9364 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-15 11:43:33.238  INFO 9364 --- [Thread-70] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-21 15:02:48.804  INFO 14276 --- [main] z.e.e.IntegrationServiceApplicationTests : Starting IntegrationServiceApplicationTests on ZDTC366 with PID 14276 (started by sathiyanarayanan.v in C:\Projects\GSK\source_codes\Deliverables\E-Workbook_Wrapper)
+2019-10-21 15:02:48.822  INFO 14276 --- [main] z.e.e.IntegrationServiceApplicationTests : The following profiles are active: dev
+2019-10-21 15:02:50.978  INFO 14276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-10-21 15:02:51.004  INFO 14276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-21 15:02:51.004  INFO 14276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-10-21 15:02:51.031  INFO 14276 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_121/bin/client;C:/Program Files (x86)/Java/jre1.8.0_121/bin;C:/Program Files (x86)/Java/jre1.8.0_121/lib/i386;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\oracle\product\10.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\sbt\bin;C:\Users\sathiyanarayanan.v\AppData\Roaming\npm;C:\Eclipse\eclipse-jee-oxygen-2-win32\eclipse;;.]
+2019-10-21 15:02:51.257  INFO 14276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-21 15:02:51.257  INFO 14276 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2411 ms
+2019-10-21 15:02:53.291  INFO 14276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-21 15:02:53.753  INFO 14276 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-21 15:02:53.833  INFO 14276 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-21 15:02:53.844  INFO 14276 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-21 15:02:54.118  INFO 14276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53412 (http) with context path ''
+2019-10-21 15:02:54.122  INFO 14276 --- [main] z.e.e.IntegrationServiceApplicationTests : Started IntegrationServiceApplicationTests in 5.877 seconds (JVM running for 15.503)
+2019-10-21 15:02:55.426  INFO 14276 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
