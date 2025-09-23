@@ -7,7 +7,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.5.0</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.zifo.ewb.integrationapi</groupId>
 	<version>0.1</version>
@@ -102,7 +102,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-beans</artifactId>
-			<version>6.2.10</version>
+			<version>6.2.11</version>
 		</dependency>
 
 		<!-- Guava -->
