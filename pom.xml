@@ -75,7 +75,7 @@
 				<scope>import</scope>
 			</dependency>
 			<!-- Force updated Reactor Netty version -->
-			<dependency>
+            <dependency>
 				<groupId>io.projectreactor.netty</groupId>
 				<artifactId>reactor-netty-http</artifactId>
 				<version>${reactor-netty.version}</version>
@@ -204,16 +204,16 @@
 
 		<!-- REPLACED: JSON Schema to POJO - Updated to latest version to minimize vulnerabilities -->
 		<!-- Note: Still has some vulnerabilities, consider alternatives if critical -->
-		<dependency>
+<!--		<dependency>
 			<groupId>org.jsonschema2pojo</groupId>
 			<artifactId>jsonschema2pojo-maven-plugin</artifactId>
-			<version>1.2.2</version> <!-- Updated to latest available -->
+			<version>1.2.2</version>  Updated to latest available 
 		</dependency>
 		<dependency>
 			<groupId>org.jsonschema2pojo</groupId>
 			<artifactId>jsonschema2pojo-core</artifactId>
-			<version>1.2.2</version> <!-- Updated to latest available -->
-		</dependency>
+			<version>1.2.2</version>  Updated to latest available 
+		</dependency>-->
 		<!-- Alternative: Consider OpenAPI Generator for JSON schema to POJO generation -->
 		<!--
 		<dependency>
