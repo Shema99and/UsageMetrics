@@ -25,8 +25,12 @@
 		<maven.compiler.source>21</maven.compiler.source>
 		<maven.compiler.target>21</maven.compiler.target>
 		<spring-cloud.version>2023.0.3</spring-cloud.version>
+		<!-- Updated Spring Framework version to fix vulnerabilities -->
+		<spring-framework.version>6.2.11</spring-framework.version>
 		<!-- Updated Netty version to fix vulnerabilities -->
 		<netty.version>4.1.125.Final</netty.version>
+		<!-- Updated Reactor Netty version -->
+		<reactor-netty.version>1.3.0</reactor-netty.version>
 		<!-- Updated Commons Lang3 version -->
 		<commons-lang3.version>3.18.0</commons-lang3.version>
 		<!-- Updated Commons IO version -->
@@ -44,6 +48,14 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- Force Spring Framework BOM to ensure consistent versions -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-framework-bom</artifactId>
+				<version>${spring-framework.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 			<!-- Force updated Netty versions to fix vulnerabilities -->
 			<dependency>
 				<groupId>io.netty</groupId>
@@ -62,6 +74,17 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!-- Force updated Reactor Netty version -->
+			<dependency>
+				<groupId>io.projectreactor.netty</groupId>
+				<artifactId>reactor-netty-http</artifactId>
+				<version>${reactor-netty.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.projectreactor.netty</groupId>
+				<artifactId>reactor-netty-core</artifactId>
+				<version>${reactor-netty.version}</version>
+			</dependency>
 			<!-- Force updated Commons Lang3 version -->
 			<dependency>
 				<groupId>org.apache.commons</groupId>
@@ -79,6 +102,22 @@
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
 				<version>${guava.version}</version>
+			</dependency>
+			<!-- Explicitly manage Spring components to ensure 6.2.11 -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-core</artifactId>
+				<version>${spring-framework.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-beans</artifactId>
+				<version>${spring-framework.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
+				<version>${spring-framework.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -163,17 +202,26 @@
 		<!-- REMOVED: Deprecated SpringFox Swagger dependencies that have vulnerabilities
 		     Replaced with SpringDoc OpenAPI above -->
 
-		<!-- Updated JSON Schema to POJO versions -->
+		<!-- REPLACED: JSON Schema to POJO - Updated to latest version to minimize vulnerabilities -->
+		<!-- Note: Still has some vulnerabilities, consider alternatives if critical -->
 		<dependency>
 			<groupId>org.jsonschema2pojo</groupId>
 			<artifactId>jsonschema2pojo-maven-plugin</artifactId>
-			<version>1.2.1</version> <!-- Updated from 1.1.1 -->
+			<version>1.2.2</version> <!-- Updated to latest available -->
 		</dependency>
 		<dependency>
 			<groupId>org.jsonschema2pojo</groupId>
 			<artifactId>jsonschema2pojo-core</artifactId>
-			<version>1.2.1</version> <!-- Updated from 1.1.1 -->
+			<version>1.2.2</version> <!-- Updated to latest available -->
 		</dependency>
+		<!-- Alternative: Consider OpenAPI Generator for JSON schema to POJO generation -->
+		<!--
+		<dependency>
+			<groupId>org.openapitools</groupId>
+			<artifactId>openapi-generator-maven-plugin</artifactId>
+			<version>7.8.0</version>
+		</dependency>
+		-->
 
 		<!-- REMOVED: Vulnerable dependencies that are not essential:
 		     - resteasy-atom-provider (commented out - has multiple high vulnerabilities)
