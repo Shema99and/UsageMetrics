@@ -1,42 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<groupId>GSK_API</groupId>
+	<artifactId>PhMeter</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>PhMeter</name>
+	<packaging>war</packaging>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.0</version>
+		<version>3.5.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.zifo.ewb.integrationapi</groupId>
-	<artifactId>Test</artifactId>
-	<version>0.1</version>
-	<packaging>war</packaging>
-	<name>Alliance_BA</name>
-
 	<properties>
 		<java.version>21</java.version>
-		<tomcat.version>10.1.44</tomcat.version>
-		<ecs.logging.java.version>1.7.0</ecs.logging.java.version>
 		<maven.compiler.source>21</maven.compiler.source>
 		<maven.compiler.target>21</maven.compiler.target>
 		<spring-cloud.version>2023.0.3</spring-cloud.version>
-		<!-- Updated Spring Framework version to fix vulnerabilities -->
-		<spring-framework.version>6.2.11</spring-framework.version>
-		<!-- Updated Netty version to be compatible with Reactor Netty 1.3.0-M7 -->
-		<netty.version>4.1.125.Final</netty.version>
-		<!-- Updated Reactor Netty version -->
-		<reactor-netty.version>1.3.0-M7</reactor-netty.version>
-		<!-- Updated Commons Lang3 version -->
-		<commons-lang3.version>3.18.0</commons-lang3.version>
-		<!-- Updated Commons IO version -->
-		<commons-io.version>2.14.0</commons-io.version>
-		<!-- Updated Guava version -->
-		<guava.version>32.1.3-jre</guava.version>
 		<!-- SonarQube Properties -->
 		<sonar.sources>src/main/java</sonar.sources>
 		<sonar.tests>src/test/java</sonar.tests>
@@ -44,86 +27,9 @@
 		<sonar.coverage.jacoco.xmlReportPaths>
 			${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 		<sonar.inclusions>src/main/java/**/*</sonar.inclusions>
+		<tomcat.version>10.1.44</tomcat.version>
 	</properties>
-
-	<dependencyManagement>
-		<dependencies>
-			<!-- Force Spring Framework BOM to ensure consistent versions -->
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-framework-bom</artifactId>
-				<version>${spring-framework.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<!-- Force updated Netty versions to fix vulnerabilities -->
-			<dependency>
-				<groupId>io.netty</groupId>
-				<artifactId>netty-codec-http</artifactId>
-				<version>4.2.6.Final</version>
-			</dependency>
-			<dependency>
-				<groupId>io.netty</groupId>
-				<artifactId>netty-codec-http2</artifactId>
-				<version>4.2.6.Final</version>
-			</dependency>
-			<dependency>
-				<groupId>io.netty</groupId>
-				<artifactId>netty-bom</artifactId>
-				<version>4.2.6.Final</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<!-- Force updated Reactor Netty version -->
-            <dependency>
-				<groupId>io.projectreactor.netty</groupId>
-				<artifactId>reactor-netty-http</artifactId>
-				<version>1.3.0-M7</version>
-			</dependency>
-			<dependency>
-				<groupId>io.projectreactor.netty</groupId>
-				<artifactId>reactor-netty-core</artifactId>
-				<version>1.3.0-M7</version>
-			</dependency>
-			<!-- Force updated Commons Lang3 version -->
-			<dependency>
-				<groupId>org.apache.commons</groupId>
-				<artifactId>commons-lang3</artifactId>
-				<version>${commons-lang3.version}</version>
-			</dependency>
-			<!-- Force updated Commons IO version -->
-			<dependency>
-				<groupId>commons-io</groupId>
-				<artifactId>commons-io</artifactId>
-				<version>${commons-io.version}</version>
-			</dependency>
-			<!-- Force updated Guava version -->
-			<dependency>
-				<groupId>com.google.guava</groupId>
-				<artifactId>guava</artifactId>
-				<version>${guava.version}</version>
-			</dependency>
-			<!-- Explicitly manage Spring components to ensure 6.2.11 -->
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-core</artifactId>
-				<version>${spring-framework.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-beans</artifactId>
-				<version>${spring-framework.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-web</artifactId>
-				<version>${spring-framework.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
 	<dependencies>
-		<!-- Spring Web (excludes default Logback) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -134,40 +40,20 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
-		<!-- Spring WebFlux -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
-		</dependency>
-
-		<!-- JSON processing - Updated version to fix vulnerabilities -->
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20240303</version> <!-- Updated from 20231013 to latest stable -->
-		</dependency>
-
-		<dependency>
-			<groupId>org.hibernate.validator</groupId>
-			<artifactId>hibernate-validator</artifactId>
-		</dependency>
-
-		<!-- Devtools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
-		<!-- Embedded Tomcat (provided for WAR) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
-		<!-- Testing -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web-services</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -184,132 +70,114 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		<!-- CodeModel (for code generation) -->
-		<dependency>
-			<groupId>com.sun.codemodel</groupId>
-			<artifactId>codemodel</artifactId>
-			<version>2.6</version> <!-- Updated from 2.4 -->
-		</dependency>
-
-		<!-- Updated SpringDoc OpenAPI instead of deprecated SpringFox -->
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-			<version>2.6.0</version>
-		</dependency>
-
-		<!-- REMOVED: Deprecated SpringFox Swagger dependencies that have vulnerabilities
-		     Replaced with SpringDoc OpenAPI above -->
-
-		<!-- REPLACED: JSON Schema to POJO - Updated to latest version to minimize vulnerabilities -->
-		<!-- Note: Still has some vulnerabilities, consider alternatives if critical -->
-<!--		<dependency>
-			<groupId>org.jsonschema2pojo</groupId>
-			<artifactId>jsonschema2pojo-maven-plugin</artifactId>
-			<version>1.2.2</version>  Updated to latest available 
+			<version>2.8.9</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jsonschema2pojo</groupId>
-			<artifactId>jsonschema2pojo-core</artifactId>
-			<version>1.2.2</version>  Updated to latest available 
-		</dependency>-->
-		<!-- Alternative: Consider OpenAPI Generator for JSON schema to POJO generation -->
-		<!--
-		<dependency>
-			<groupId>org.openapitools</groupId>
-			<artifactId>openapi-generator-maven-plugin</artifactId>
-			<version>7.8.0</version>
-		</dependency>
-		-->
-
-		<!-- REMOVED: Vulnerable dependencies that are not essential:
-		     - resteasy-atom-provider (commented out - has multiple high vulnerabilities)
-		     - commons-configuration (commented out - has critical vulnerabilities)
-		     - jackson-jaxrs (commented out - has critical vulnerabilities)
-		     - commons-collections4, commons-codec, commons-lang3, commons-io (commented out - will be pulled transitively with updated versions)
-		-->
-
-		<!-- HTTP Clients - Updated versions -->
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpcore</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.14</version> <!-- Updated from 4.5.13 to latest -->
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.1</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpmime</artifactId>
-			<version>4.5.14</version> <!-- Updated from 4.3 -->
-		</dependency>
-
-		<!-- Logging -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-log4j2</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>co.elastic.logging</groupId>
 			<artifactId>ecs-logging-core</artifactId>
-			<version>${ecs.logging.java.version}</version>
+			<version>1.7.0</version>
 		</dependency>
-
 		<dependency>
 			<groupId>co.elastic.logging</groupId>
 			<artifactId>log4j2-ecs-layout</artifactId>
-			<version>${ecs.logging.java.version}</version>
+			<version>1.7.0</version>
 		</dependency>
-		
-		<!-- Updated Spring WebMVC to fix vulnerabilities -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>6.2.11</version> <!-- Updated to match spring-core fix -->
-		</dependency>
-
-		<!-- Lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20250517</version>
+		</dependency>
 	</dependencies>
 
-	<build>
-		<finalName>Alliance BA</finalName>
-		<plugins>
-			<!-- Spring Boot Maven plugin -->
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-lang3</artifactId>
+				<version>3.18.0</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-codec-http2</artifactId>
+				<version>4.1.124.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+				<artifactId>netty-codec</artifactId>
+				<version>4.1.125.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
+				<version>6.2.8</version>
+			</dependency>
+			<dependency>
+				<groupId>io.projectreactor.netty</groupId>
+				<artifactId>reactor-netty-http</artifactId>
+				<version>1.2.8</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc</artifactId>
+				<version>6.2.10</version>
+			</dependency>
+			<dependency>
+                  <groupId>io.netty</groupId>
+                  <artifactId>netty-codec-http</artifactId>
+                  <version>4.1.125.Final</version>
+            </dependency>
+			<dependency>
+			    <groupId>org.springframework</groupId>
+			    <artifactId>spring-core</artifactId>
+			    <version>6.2.11</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
-			<!-- ensure compilation under Java 21 -->
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<release>21</release>
-				</configuration>
-			</plugin>
+	<build>
+		<finalName>${warOutputName}</finalName>
+		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.3.1</version>
-				<configuration>
+
+				<!--	<configuration>
 					<argLine>${surefireArgLine}</argLine>
 					<useSystemClassLoader>false</useSystemClassLoader>
-					<!-- Avoid module-path issues with JDK 21 and let Spring Boot manage JUnit versions -->
-					<useModulePath>false</useModulePath>
 					<includes>
 						<include>**/*Test.java</include>
 						<include>**/Test*.java</include>
 						<include>**/*Tests.java</include>
 					</includes>
-				</configuration>
+				</configuration>-->
 			</plugin>
 
 			<!-- SonarQube Maven Plugin -->
@@ -332,12 +200,20 @@
 							<goal>prepare-agent</goal>
 						</goals>
 						<configuration>
+							<excludes>
+								<exclude>**/dto/**</exclude>
+								<exclude>**/config/**</exclude>
+							</excludes>
+						</configuration>
+
+
+						<!-- <configuration>
 							<destFile>${project.build.directory}/jacoco.exec</destFile>
 							<propertyName>surefireArgLine</propertyName>
 							<excludes>
 								<exclude>**/*_$$_*.class</exclude>
 							</excludes>
-						</configuration>
+						</configuration> -->
 					</execution>
 					<execution>
 						<id>report</id>
@@ -345,27 +221,29 @@
 						<goals>
 							<goal>report</goal>
 						</goals>
-						<configuration>
+						<!-- <configuration>
 							<dataFile>${project.build.directory}/jacoco.exec</dataFile>
 							<outputDirectory>
 								${project.build.directory}/site/jacoco</outputDirectory>
 							<formats>
 								<format>XML</format>
 							</formats>
-						</configuration>
+						</configuration> -->
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
-
-	<repositories>
-		<repository>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-		</repository>
-	</repositories>
-
-	<description>Project Download API</description>
+	<description>pH Meter</description>
 </project>
